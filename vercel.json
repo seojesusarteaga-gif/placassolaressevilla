@@ -1,7 +1,6 @@
 {
-  "rewrites": [
-    { "source": "/municipios/:slug", "destination": "/municipios/:slug.html" }
-  ],
+  "cleanUrls": true,
+  "trailingSlash": false,
   "headers": [
     {
       "source": "/(.*)",
